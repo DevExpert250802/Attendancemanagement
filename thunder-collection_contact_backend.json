@@ -1,0 +1,162 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "contact_backend",
+    "dateExported": "2023-07-03T07:35:01.688Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "0973e3e5-321b-42ee-a361-d8df549cb830",
+            "name": "userCredentials",
+            "containerId": "",
+            "created": "2023-07-02T07:11:23.119Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "207f6520-74db-4166-bc21-1a39ea6e4665",
+            "name": "userContacts",
+            "containerId": "",
+            "created": "2023-07-02T07:12:01.127Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "23e4bd0c-0b27-4b39-9d64-db94cd6b5621",
+            "colId": "a5000392-d42e-4de9-929d-bc4cb7e7b153",
+            "containerId": "207f6520-74db-4166-bc21-1a39ea6e4665",
+            "name": "C",
+            "url": "localhost:5001/contacts/",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-07-02T07:12:20.277Z",
+            "modified": "2023-07-02T11:16:22.579Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"belongsTo\":\"64a15c433951e98c6e2df13b\",\n  \"name\":\"adnan Al Dammam\",\n  \"number\":\"03018006062\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1biI6IkJhcWlyIFNoYWggU2FoYiAxMjMiLCJpZCI6IjY0YTE1YzQzMzk1MWU5OGM2ZTJkZjEzYiIsImlhdCI6MTY4ODI5NjUzMH0.w4glWyQEBL-OSBaDh6p7cCZU3nQa5fyfXf7jorczVUI"
+            },
+            "tests": []
+        },
+        {
+            "_id": "1feab7a2-ea81-492b-8703-bb3cd919dc28",
+            "colId": "a5000392-d42e-4de9-929d-bc4cb7e7b153",
+            "containerId": "207f6520-74db-4166-bc21-1a39ea6e4665",
+            "name": "R",
+            "url": "localhost:5001/contacts/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-07-02T07:12:26.080Z",
+            "modified": "2023-07-02T11:16:12.300Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1biI6IkJhcWlyIFNoYWggU2FoYiAxMjMiLCJpZCI6IjY0YTE1YzQzMzk1MWU5OGM2ZTJkZjEzYiIsImlhdCI6MTY4ODI5NjUzMH0.w4glWyQEBL-OSBaDh6p7cCZU3nQa5fyfXf7jorczVUI"
+            },
+            "tests": []
+        },
+        {
+            "_id": "ec5c8b45-3f61-46f3-930d-936458556ec4",
+            "colId": "a5000392-d42e-4de9-929d-bc4cb7e7b153",
+            "containerId": "207f6520-74db-4166-bc21-1a39ea6e4665",
+            "name": "U",
+            "url": "localhost:5001/contacts/64a15c6f3951e98c6e2df13e",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2023-07-02T07:12:29.798Z",
+            "modified": "2023-07-02T11:17:32.599Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \n  \"name\":\"adnan al asdf\",\n  \"number\":\"0313923982402482\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1biI6IkFkbmFuIFNoYWgiLCJpZCI6IjY0YTEzYmUyMzlkM2EyZmRhNGViZjkzMSIsImlhdCI6MTY4ODI4ODQzN30.63edMbphCDaH1e7Omm00Q4mpHWrDG_dU9Ub5Y2vR4lQ"
+            },
+            "tests": []
+        },
+        {
+            "_id": "a8d9383c-ca6f-4501-9f94-71a96a7afbd1",
+            "colId": "a5000392-d42e-4de9-929d-bc4cb7e7b153",
+            "containerId": "207f6520-74db-4166-bc21-1a39ea6e4665",
+            "name": "D",
+            "url": "localhost:5001/contacts/64a15c6f3951e98c6e2df13e",
+            "method": "DELETE",
+            "sortNum": 60000,
+            "created": "2023-07-02T07:12:33.765Z",
+            "modified": "2023-07-02T11:17:40.584Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1biI6IkFkbmFuIFNoYWgiLCJpZCI6IjY0YTEzYmUyMzlkM2EyZmRhNGViZjkzMSIsImlhdCI6MTY4ODI4ODI0Mn0.f6udKHJ3oOC8NPyQj3AHFoYC052-v4ZcQ9H0sefVUGs"
+            },
+            "tests": []
+        },
+        {
+            "_id": "0146b4bb-30d1-4d23-978c-65c09a32d8c9",
+            "colId": "a5000392-d42e-4de9-929d-bc4cb7e7b153",
+            "containerId": "0973e3e5-321b-42ee-a361-d8df549cb830",
+            "name": "signIn",
+            "url": "localhost:5001/users/signIn",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-07-02T07:33:12.830Z",
+            "modified": "2023-07-02T11:15:30.931Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userName\":\"Baqir Shah Sahb 123\",\n  \"password\":\"asdf123\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f388e277-0fbd-40ab-9070-cc90baf90d99",
+            "colId": "a5000392-d42e-4de9-929d-bc4cb7e7b153",
+            "containerId": "0973e3e5-321b-42ee-a361-d8df549cb830",
+            "name": "signUp",
+            "url": "localhost:5001/users/signUp",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2023-07-02T07:33:18.215Z",
+            "modified": "2023-07-02T11:15:16.008Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"userName\":\"Baqir Shah Sahb 123\",\n  \"password\":\"asdf123\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d987e5b9-ec03-49ed-ac06-138b94dd350a",
+            "colId": "a5000392-d42e-4de9-929d-bc4cb7e7b153",
+            "containerId": "0973e3e5-321b-42ee-a361-d8df549cb830",
+            "name": "currentUser",
+            "url": "localhost:5001/users/current",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2023-07-02T07:33:24.764Z",
+            "modified": "2023-07-02T11:15:43.690Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1biI6IkJhcWlyIFNoYWggU2FoYiAxMjMiLCJpZCI6IjY0YTE1YzQzMzk1MWU5OGM2ZTJkZjEzYiIsImlhdCI6MTY4ODI5NjUzMH0.w4glWyQEBL-OSBaDh6p7cCZU3nQa5fyfXf7jorczVUI"
+            },
+            "tests": []
+        }
+    ]
+}
