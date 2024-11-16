@@ -5,7 +5,7 @@ const validatingToken = require('../middleware/validateToken');
 const router = express.Router();
 
 router.route('/signIn').post(signIn)
-router.route('/signUp').post(signUp)
+router.route('/signUp').post(signUp);
 router.route('/current').get(validatingToken,current)
 
 

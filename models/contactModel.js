@@ -15,7 +15,8 @@ const contactSchema = mongoose.Schema({
         required: [true, "Plase add the contact"]
 
     }
-}, {
+}, 
+{
     timestamps: true
 
 })

@@ -4,7 +4,7 @@ const expressAsyncHandler = require("express-async-handler")
 
 const validatingToken = expressAsyncHandler(async (req, res, next) => {
     let token;
-    let authHeader = req.headers.Authorization || req.headers.authorization;
+    const authHeader = req.headers.authorization || req.headers.Authorization;
 
     if (authHeader && authHeader.startsWith("Bearer")) {
         console.log(2);
